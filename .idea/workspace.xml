@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dabc66a7-4933-49c8-a579-211a1edc4e90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/MAU.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_user/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_user/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myuser/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myuser/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myuser/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myuser/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myuser/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myuser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myuser/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myuser/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myuser/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myuser/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/myuser/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myuser/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/myuser/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myuser/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myuser/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

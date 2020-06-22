@@ -8,3 +8,7 @@ class MyUser(AbstractUser):
     homepage = models.URLField(max_length=150, null=True, blank=True)
     age = models.IntegerField(null=True, blank=True)
     REQUIRED_FIELDS = ['age']
+
+
+def __str__(self):
+    return self.display_name

@@ -7,8 +7,8 @@
     }
 </style>
 <h1>Homepage</h1>
-    <p><b>Username: </b>{{ request.user.username }} <br />
-    <b>Display Name: </b>{{ request.user.display_name }} <br />
+<p>Username:{{ request.user.username }}</p> <br />
+<p>Value of `settings.AUTH_USER_MODEL`: </p> {{ content }}<br />
+<p>Display Name: </p>{{ user.username.display_name }} <br />
     <a href="logout">Logout</a>
-</p>
 {% endblock %}
