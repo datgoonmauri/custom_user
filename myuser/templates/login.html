@@ -1,18 +1,21 @@
-<form method='post'>{% csrf_token %}
-{% for field in login_form %}
-<p>
-{{field.label_tag}}
-{{field}}
 
-{% if field.help_text %}
-    <small style="color: grey;">{{field.help_text}}</small>
-{% endif %}
-{% for error in field.errors%}
-    <p style="color: red;">{{error}}</p>
-{% endfor %}
-</p>
-{% endfor %}
-<button type='submit'>Login</button>
-</form>
+{% block content %}
+<html>
 
-  <a href="{% url 'register' %}">Register</a>
+<style>
+    html{
+    font-family: Arial;
+    color: red;
+    }
+</style>
+<h1>Login</h1>
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit!">
+</form action>
+
+<a href="{% url 'register' %}">Register</a>
+</html>
+{% endblock %}

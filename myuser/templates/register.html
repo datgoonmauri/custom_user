@@ -1,18 +1,19 @@
-<h1>Register</h1>
-<form method='post'>
-{% csrf_token %}
-{% for input in registration_form %}
-<p>
-{{input.label_tag}}
-{{input}}
+<html>
+<h1>Sign up!</h1>
 
-{% if input.help_text %}
-    <small style="color: grey;">{{input.help_text}}</small>
-{% endif %}
-{% for error in input.errors%}
-    <p style="color: red;">{{error}}</p>
-{% endfor %}
-</p>
-{% endfor %}
-<button type='submit'>Register</button>
-</form>
+  <style>
+    html{
+    font-family: Arial;
+    color: red;
+    }
+</style>
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+
+        <button type="submit">Sign Up!</button>
+    </form>
+
+<br>
+<a href="{% url 'homepage' %}">Back Home</a>
+</html>
